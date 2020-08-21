@@ -1,0 +1,333 @@
+@import "./button";
+
+.main{
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.menu{
+    margin-top:22px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.nav-bottom{
+    border:1px solid #BEBEC0;
+    border-width: 100%;
+    margin-top:22px;
+
+}
+
+.hero-container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:24px;
+    background-color: purple;
+
+    .image{
+        margin-top:40px;
+    }
+
+    .header{
+        // background-color:red;
+        text-align:center;
+        margin-top:18px;
+    }
+    .paragraph{
+        text-align: center;
+        margin-top:8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px
+    }
+
+  .btn{
+      @include primary-btn();
+      margin-top:38px;
+  }
+}
+
+
+
+// Our services section 
+
+
+.section{
+    background-color:red;
+    .header{
+        padding-top:20px;
+        text-align: center;
+    }
+
+    .container{
+        display: flex;
+        justify-content:space-between;
+        
+
+        .one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:20px;
+
+            .border{    
+                border:2px solid #DD821F;
+                margin-top:14px;
+                width:48px;
+            }
+            .textBottom{
+                margin-top:12px;
+            }
+        }
+        .two{
+            background-color: purple;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:20px;
+
+            
+        }
+    }
+    
+}
+
+
+// How it works section 
+
+
+.how-it-works-section{
+    background-color:pink;
+    padding-bottom:24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .works-header{
+        font-size:24px;
+        margin-top:58px;
+        text-align:center;
+    }
+
+    .works-card{
+        border:2px solid black;
+        border-radius:18px;
+        height:200px;
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:300px;
+        height:340px;
+        margin-top:40px;
+
+
+        .circle{
+            border-radius: 100%;
+            height:74px;
+            margin-top:40px;
+            width:74px;
+            background-color:yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .num{
+                font-size:28px;
+            }
+        }
+
+        .text{
+            margin-top:55px;
+            text-align: center;
+        }
+    }
+}
+
+
+// department section
+
+.department-section{
+    background-color:green;
+    padding:20px;
+    
+   
+
+  
+}
+
+.dept-card{
+    background-color:yellow;
+    border:2px solid black;
+    border-radius: 8px;
+    margin-top:58px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    .upper-section{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .border{
+            border:2px solid black;
+            width:114px;
+            .heading{
+                text-align: center;
+            } 
+        }
+        .text{
+            text-align: center;
+        }
+    }
+
+    .lower-section{
+        margin-top:20px;
+        width:100%;
+        background-color: hotpink;
+
+        .inner-section{
+            display: flex;
+            justify-content: space-between;
+            margin-top:24px;
+        }
+        
+        
+       .department-one{
+            // background-color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:20px;
+         
+
+            .border{    
+                border:2px solid #DD821F;
+                margin-top:14px;
+                width:48px;
+            }
+            .text{
+                margin-top:12px;
+            }
+        }
+        .department-two{
+            // background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:20px;
+
+            .border{    
+                border:2px solid #DD821F;
+                margin-top:14px;
+                width:48px;
+            }
+            .text{
+                margin-top:12px;
+            }
+        }
+    }
+   
+} 
+
+
+// About us container
+
+.about-us-container{
+    background-color:grey;
+    
+    .about-us{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .about{
+            color:white;
+        }
+
+        .about-us-text{
+            text-align: center;
+        }
+    }
+
+    .quick-links{
+        background-color: yellow;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+
+        .quick{
+            color:red;
+        }
+        
+        .link{
+            text-decoration:none;
+            margin-top:12px;
+        }
+    }
+
+    .more{
+        background-color: purple;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        .mmore{
+            color:white;
+            margin-top:24px;
+        }
+        .more-links{
+            text-decoration:none;
+            margin-top:12px;
+        }
+    }
+
+    .contact-us{
+        background-color: royalblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contact{
+            color:white;
+            margin-top:24px;
+        }
+
+        .contact-link{
+            text-decoration:none;
+            margin-top:12px;
+        }
+
+        .contact-text{
+            margin-top:12px;
+        }
+    }
+
+    .social-media-icons{
+        background-color:red;
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media{
+        margin-top:24px;
+    }
+   
+    .social-icons{
+        margin-top:24px;
+    }
+
+    .social-media-icon{
+        margin-right:10px;
+    }
+
+}
