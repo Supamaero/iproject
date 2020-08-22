@@ -69,17 +69,17 @@
   margin-top: 38px;
 }
 
-.section {
+.service-section {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.section .header {
+.service-section .header {
   padding-top: 20px;
   text-align: center;
 }
 
-.section .container {
+.service-section .service-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +88,20 @@
           justify-content: space-between;
 }
 
-.section .container .one {
+.service-section .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-section .left .one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,18 +115,68 @@
   padding: 20px;
 }
 
-.section .container .one .border {
+.service-section .left .one .border {
   border: 2px solid #DD821F;
   margin-top: 14px;
   width: 48px;
 }
 
-.section .container .one .textBottom {
+.service-section .left .one .textBottom {
   margin-top: 12px;
 }
 
-.section .container .two {
-  background-color: purple;
+.service-section .left .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.service-section .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-section .right .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.service-section .right .one .border {
+  border: 2px solid #DD821F;
+  margin-top: 14px;
+  width: 48px;
+}
+
+.service-section .right .one .textBottom {
+  margin-top: 12px;
+}
+
+.service-section .right .two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,17 +309,32 @@
   font-size: 16px;
   text-align: center;
   margin-top: 24px;
+  width: 90%;
 }
 
 .dept-card .lower-section {
   margin-top: 24px;
-  width: 100%;
-}
-
-.dept-card .lower-section .inner-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.dept-card .lower-section .dept-left {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+}
+
+.dept-card .lower-section .dept-right {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -287,32 +365,7 @@
   margin-top: 12px;
 }
 
-.dept-card .lower-section .department-two {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px;
-}
-
-.dept-card .lower-section .department-two .border {
-  border: 2px solid #DD821F;
-  margin-top: 14px;
-  width: 48px;
-}
-
-.dept-card .lower-section .department-two .text {
-  margin-top: 12px;
-  font-size: 16px;
-}
-
-.dept-card .lower-section .department-two .find-more {
+.dept-card .lower-section .department-one .find-more {
   margin-top: 12px;
   font-size: 16px;
   text-decoration: none;
