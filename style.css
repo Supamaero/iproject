@@ -5,7 +5,7 @@
 }
 
 .menu {
-  margin-top: 22px;
+  padding-top: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +70,6 @@
 }
 
 .section {
-  background-color: red;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -111,9 +110,6 @@
 
 .section .container .one .textBottom {
   margin-top: 12px;
-  width: 40%;
-  padding-right: 24px;
-  padding-left: 24px;
 }
 
 .section .container .two {
@@ -132,7 +128,6 @@
 }
 
 .how-it-works-section {
-  background-color: royalblue;
   padding-bottom: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,7 +201,7 @@
 }
 
 .dept-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   margin-top: 58px;
   display: -webkit-box;
@@ -238,7 +233,7 @@
 }
 
 .dept-card .upper-section .border {
-  border: 2px solid black;
+  border: 2px solid #DD821F;
   width: 114px;
   margin-top: 6px;
 }
@@ -314,6 +309,14 @@
 
 .dept-card .lower-section .department-two .text {
   margin-top: 12px;
+  font-size: 16px;
+}
+
+.dept-card .lower-section .department-two .find-more {
+  margin-top: 12px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #DD821F;
 }
 
 .footer-container {

@@ -7,7 +7,7 @@
 }
 
 .menu{
-    margin-top:22px;
+    padding-top:22px;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -58,7 +58,7 @@
 
 
 .section{
-    background-color:red;
+    // background-color:red;
     padding-right:10px;
     padding-left:10px;
     .header{
@@ -83,9 +83,9 @@
             }
             .textBottom{
                 margin-top:12px;
-                width:40%;
-                padding-right:24px;
-                padding-left:24px;
+                // width:40%;
+                // padding-right:24px;
+                // padding-left:24px;
             }
         }
         .two{
@@ -107,7 +107,7 @@
 
 .how-it-works-section{
     // background-color:#EEEFF2;
-    background-color: royalblue;
+    // background-color: royalblue;
     padding-bottom:24px;
     display:flex;
     flex-direction: column;
@@ -169,7 +169,7 @@
 }
 
 .dept-card{
-    background-color:#fff;
+    background-color:#ffffff;
     // border:2px solid black;
     border-radius: 8px;
     margin-top:58px;
@@ -186,7 +186,7 @@
         align-items: center;
         margin-top:50px;
         .border{
-            border:2px solid black;
+            border:2px solid #DD821F;
             width:114px;
             margin-top:6px;
             .heading{
@@ -243,6 +243,14 @@
             }
             .text{
                 margin-top:12px;
+                font-size:16px;
+            }
+
+            .find-more{
+                margin-top:12px;
+                font-size:16px;
+                text-decoration:none;
+                color:#DD821F;
             }
         }
     }
