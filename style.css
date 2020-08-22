@@ -1,6 +1,7 @@
 .main {
   padding-left: 16px;
   padding-right: 16px;
+  background-color: #F8F7F9;
 }
 
 .menu {
@@ -36,7 +37,6 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 24px;
-  background-color: purple;
 }
 
 .hero-container .image {
@@ -71,6 +71,8 @@
 
 .section {
   background-color: red;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .section .header {
@@ -109,6 +111,9 @@
 
 .section .container .one .textBottom {
   margin-top: 12px;
+  width: 40%;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .section .container .two {
@@ -127,7 +132,7 @@
 }
 
 .how-it-works-section {
-  background-color: pink;
+  background-color: royalblue;
   padding-bottom: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,6 +144,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .how-it-works-section .works-header {
@@ -148,7 +155,7 @@
 }
 
 .how-it-works-section .works-card {
-  border: 2px solid black;
+  background-color: #FDFEFE;
   border-radius: 18px;
   height: 200px;
   width: 300px;
@@ -172,7 +179,7 @@
   height: 74px;
   margin-top: 40px;
   width: 74px;
-  background-color: yellow;
+  background-color: #495678;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,6 +193,7 @@
 
 .how-it-works-section .works-card .circle .num {
   font-size: 28px;
+  color: #fafafa;
 }
 
 .how-it-works-section .works-card .text {
@@ -194,13 +202,11 @@
 }
 
 .department-section {
-  background-color: green;
   padding: 20px;
 }
 
 .dept-card {
-  background-color: yellow;
-  border: 2px solid black;
+  background-color: #fff;
   border-radius: 8px;
   margin-top: 58px;
   display: -webkit-box;
@@ -213,10 +219,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .dept-card .upper-section {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,11 +234,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 50px;
 }
 
 .dept-card .upper-section .border {
   border: 2px solid black;
   width: 114px;
+  margin-top: 6px;
 }
 
 .dept-card .upper-section .border .heading {
@@ -239,13 +248,14 @@
 }
 
 .dept-card .upper-section .text {
+  font-size: 16px;
   text-align: center;
+  margin-top: 24px;
 }
 
 .dept-card .lower-section {
-  margin-top: 20px;
+  margin-top: 24px;
   width: 100%;
-  background-color: hotpink;
 }
 
 .dept-card .lower-section .inner-section {
@@ -306,12 +316,15 @@
   margin-top: 12px;
 }
 
-.about-us-container {
-  background-color: grey;
+.footer-container {
+  background-color: #121212;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-.about-us-container .about-us {
-  background-color: red;
+.footer-container .about-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,16 +337,43 @@
           align-items: center;
 }
 
-.about-us-container .about-us .about {
-  color: white;
+.footer-container .about-us .about {
+  color: #A09292;
+  margin-top: 52px;
 }
 
-.about-us-container .about-us .about-us-text {
+.footer-container .about-us .about-us-text {
   text-align: center;
+  color: #fafafa;
+  width: 80%;
+  margin-top: 12px;
 }
 
-.about-us-container .quick-links {
-  background-color: yellow;
+.footer-container .quick-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 32px;
+}
+
+.footer-container .quick-links .quick {
+  color: #A09292;
+}
+
+.footer-container .quick-links .link {
+  text-decoration: none;
+  margin-top: 12px;
+  color: #fafafa;
+}
+
+.footer-container .more {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,17 +386,18 @@
           align-items: center;
 }
 
-.about-us-container .quick-links .quick {
-  color: red;
+.footer-container .more .mmore {
+  color: #A09292;
+  margin-top: 32px;
 }
 
-.about-us-container .quick-links .link {
+.footer-container .more .more-links {
   text-decoration: none;
   margin-top: 12px;
+  color: #fafafa;
 }
 
-.about-us-container .more {
-  background-color: purple;
+.footer-container .contact-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,46 +410,23 @@
           align-items: center;
 }
 
-.about-us-container .more .mmore {
-  color: white;
-  margin-top: 24px;
+.footer-container .contact-us .contact {
+  color: #A09292;
+  margin-top: 32px;
 }
 
-.about-us-container .more .more-links {
+.footer-container .contact-us .contact-link {
   text-decoration: none;
   margin-top: 12px;
+  color: #fafafa;
 }
 
-.about-us-container .contact-us {
-  background-color: royalblue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.about-us-container .contact-us .contact {
-  color: white;
-  margin-top: 24px;
-}
-
-.about-us-container .contact-us .contact-link {
-  text-decoration: none;
+.footer-container .contact-us .contact-text {
   margin-top: 12px;
+  color: #fafafa;
 }
 
-.about-us-container .contact-us .contact-text {
-  margin-top: 12px;
-}
-
-.about-us-container .social-media-icons {
-  background-color: red;
+.footer-container .social-media-icons {
   height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,15 +440,17 @@
           align-items: center;
 }
 
-.about-us-container .social-media {
-  margin-top: 24px;
+.footer-container .social-media {
+  margin-top: 32px;
+  color: #A09292;
 }
 
-.about-us-container .social-icons {
-  margin-top: 24px;
+.footer-container .social-icons {
+  margin-top: 12px;
+  color: #fafafa;
 }
 
-.about-us-container .social-media-icon {
+.footer-container .social-media-icon {
   margin-right: 10px;
 }
 

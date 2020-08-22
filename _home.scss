@@ -3,6 +3,7 @@
 .main{
     padding-left:16px;
     padding-right:16px;
+    background-color:#F8F7F9;
 }
 
 .menu{
@@ -25,7 +26,7 @@
     flex-direction: column;
     align-items: center;
     padding:24px;
-    background-color: purple;
+    // background-color: purple;
 
     .image{
         margin-top:40px;
@@ -58,6 +59,8 @@
 
 .section{
     background-color:red;
+    padding-right:10px;
+    padding-left:10px;
     .header{
         padding-top:20px;
         text-align: center;
@@ -66,7 +69,6 @@
     .container{
         display: flex;
         justify-content:space-between;
-        
 
         .one{
             display: flex;
@@ -81,6 +83,9 @@
             }
             .textBottom{
                 margin-top:12px;
+                width:40%;
+                padding-right:24px;
+                padding-left:24px;
             }
         }
         .two{
@@ -101,11 +106,15 @@
 
 
 .how-it-works-section{
-    background-color:pink;
+    // background-color:#EEEFF2;
+    background-color: royalblue;
     padding-bottom:24px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+
+
 
 
     .works-header{
@@ -115,7 +124,8 @@
     }
 
     .works-card{
-        border:2px solid black;
+        // border:2px solid black;
+        background-color:#FDFEFE;
         border-radius:18px;
         height:200px;
         width:300px;
@@ -132,13 +142,14 @@
             height:74px;
             margin-top:40px;
             width:74px;
-            background-color:yellow;
+            background-color:#495678;
             display: flex;
             justify-content: center;
             align-items: center;
             
             .num{
                 font-size:28px;
+                color: #fafafa;
             }
         }
 
@@ -153,44 +164,46 @@
 // department section
 
 .department-section{
-    background-color:green;
-    padding:20px;
-    
-   
-
-  
+    // background-color:green;
+    padding:20px;  
 }
 
 .dept-card{
-    background-color:yellow;
-    border:2px solid black;
+    background-color:#fff;
+    // border:2px solid black;
     border-radius: 8px;
     margin-top:58px;
     display:flex;
     flex-direction:column;
     align-items: center;
+    padding-right:10px;
+    padding-left:10px;
 
     .upper-section{
-        background-color: red;
+        // background-color: red;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top:50px;
         .border{
             border:2px solid black;
             width:114px;
+            margin-top:6px;
             .heading{
                 text-align: center;
             } 
         }
         .text{
+            font-size:16px;
             text-align: center;
+            margin-top:24px;
         }
     }
 
     .lower-section{
-        margin-top:20px;
+        margin-top:24px;
         width:100%;
-        background-color: hotpink;
+        // background-color: hotpink;
 
         .inner-section{
             display: flex;
@@ -237,81 +250,99 @@
 } 
 
 
-// About us container
+// Footer
 
-.about-us-container{
-    background-color:grey;
+.footer-container{
+    background-color:#121212;
+    padding-left:0;
+    padding-right:0;
+    margin-right:0;
+    margin-left:0;
+
+    
+    // margin-left:0px;
+    // margin-right:0px;
+    // width:100%;
     
     .about-us{
-        background-color: red;
+        // background-color: red;
         display: flex;
         flex-direction: column;
         align-items: center;
 
         .about{
-            color:white;
+            color:#A09292;
+            margin-top:52px;
         }
 
         .about-us-text{
             text-align: center;
+            color:#fafafa;
+            width:80%;
+            margin-top:12px;
         }
     }
 
     .quick-links{
-        background-color: yellow;
+        // background-color: yellow;
         display: flex;
         flex-direction:column;
         align-items: center;
+        margin-top:32px;
 
         .quick{
-            color:red;
+            color:#A09292;
         }
         
         .link{
             text-decoration:none;
             margin-top:12px;
+            color:#fafafa;
         }
     }
 
     .more{
-        background-color: purple;
+        // background-color: purple;
         display:flex;
         flex-direction: column;
         align-items: center;
 
         .mmore{
-            color:white;
-            margin-top:24px;
+            color:#A09292;
+            margin-top:32px;
         }
         .more-links{
             text-decoration:none;
             margin-top:12px;
+            color:#fafafa;
         }
     }
 
     .contact-us{
-        background-color: royalblue;
+        // background-color: royalblue;
         display: flex;
         flex-direction: column;
         align-items: center;
 
         .contact{
-            color:white;
-            margin-top:24px;
+            color:#A09292;
+            margin-top:32px;
         }
 
         .contact-link{
             text-decoration:none;
             margin-top:12px;
+            color:#fafafa;
         }
 
         .contact-text{
             margin-top:12px;
+            color:#fafafa;
         }
     }
 
     .social-media-icons{
-        background-color:red;
+        // background-color:red;
         height:200px;
         display: flex;
         flex-direction: column;
@@ -319,11 +350,13 @@
     }
 
     .social-media{
-        margin-top:24px;
+        margin-top:32px;
+        color:#A09292;
     }
    
     .social-icons{
-        margin-top:24px;
+        margin-top:12px;
+        color:#fafafa;
     }
 
     .social-media-icon{
