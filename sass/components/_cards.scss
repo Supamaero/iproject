@@ -1,0 +1,57 @@
+// HOW IT WORKS CARD
+
+
+.card-flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    .card-container{
+        height: 340px;
+        width: 300px;
+        padding:12px;
+        background-color: orange;
+        border:2px solid black;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 34px;
+
+
+        .card-circle{
+            align-items: center;
+            background-color:red;
+            border-radius: 50%;
+            display: flex;
+            height:74px;
+            justify-content: center;   
+            width: 74px;
+            margin-top:38px;
+
+            .num{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 84px;
+                color: #FAFAFA;
+            }
+        }
+
+        .card-text{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            margin-top:56px;
+        }
+    }
+
+}
+
+
+
+

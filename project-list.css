@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-container{
+    background-color: #F8F7F9;
+}
+
+.banner-container{
+    height:306px;
+    width:100%;
+    margin-bottom: 34px;
+    background-color: brown;
+    background-image: url("./resources/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .banner-img{
+    height:306px;
+    width:100%;
+} */
+
+
+.main-section{
+    width:100%;
+    /* background-color: #F8F7F9; */
+    /* background-color: blue; */
+    padding:0px 16px;
+}
+
+
+/* CARD */
+
+.project-card-container{
+    background-color: #ffffff;
+    padding:44px 16px;
+    border-radius:12px;
+    margin-top:24px;
+    
+}
+
+.project-card-header{
+    font-size:18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    color: #495678;
+}
+
+.project-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top:10px;
+}
+
+.lower-section{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:12px;
+}
+.metris{
+    /* background-color: red; */
+    display: flex;
+    /* border: 2px solid black; */
+    margin-right:24px;
+    margin-top:6px;
+}
+
+.project-icon{
+    height:16px; 
+    width: 16px;
+    margin-right:4px;
+} 
+
+.metris-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #495678;
+
+}
+
+.metris-link{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.metris-text-link{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16x;
+    text-decoration: none;
+    color:#DD821F;
+}
+
+.ad{
+    height: 366px;
+    width: 100%;
+    border-radius:12px;
+    background-color: #d2d2d2;
+    margin-top: 24px;
+    background-image: url("./resources/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pagination{
+    height:46px;
+    /* width: 100%; */
+    background-color: #d2d2d2;
+    /* margin-top: 36px; */
+    margin: 36px 16px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .banner-container{
+        height:306px;
+        width:100%;
+        margin-bottom: 34px;
+        background-color: brown;
+        background-image: url("./resources/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    /* .banner-img{
+        height:306px;
+        width:100%;
+    } */
+    
+    
+    .main-section{
+        width:100%;
+        /* background-color: #F8F7F9; */
+        /* background-color: blue; */
+        padding:0px 216px;
+    }
+    
+    
+    /* CARD */
+    
+    .project-card-container{
+        background-color: #ffffff;
+        padding:44px 48px;
+        border-radius:12px;
+        margin-top:24px;
+        
+    }
+    
+    .project-card-header{
+        font-size:20px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        color: #495678;
+    }
+    
+    .project-text{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top:10px;
+    }
+    
+    .lower-section{
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top:12px;
+    }
+    .metris{
+        /* background-color: red; */
+        display: flex;
+        /* border: 2px solid black; */
+        margin-right:24px;
+        margin-top:6px;
+    }
+    
+    .project-icon{
+        height:16px; 
+        width: 16px;
+        margin-right:4px;
+    } 
+    
+    .metris-text{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #495678;
+    
+    }
+    
+    .metris-link{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .metris-text-link{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16x;
+        text-decoration: none;
+        color:#DD821F;
+    }
+    
+    .ad{
+        height: 220px;
+        width: 100%;
+        border-radius:12px;
+        background-color: #d2d2d2;
+        margin-top: 24px;
+        background-image: url("./resources/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .pagination{
+        height:46px;
+        /* width: 100%; */
+        background-color: #d2d2d2;
+        /* margin-top: 36px; */
+        margin: 36px 16px;
+    }
+
+
+}

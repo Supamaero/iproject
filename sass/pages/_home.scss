@@ -1,0 +1,326 @@
+@import "../components/component-dir";
+@import "../helpers/helper-dir";
+@import "../basics/basic-dir";
+@import "../components/cards";
+
+
+.hero-header-web{
+    display:none;
+}
+
+.hero-image-web{
+    display:none;
+}
+
+.hero-flex-container{
+    height:100vh;
+    width:100%; 
+    @include flexDirection(column);
+    justify-content: unset;
+    margin-top:40px;
+}
+
+.hero-block{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top:18px;
+}
+
+
+.hero-header-mobile{
+    font-size: $lg-header;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+}
+
+.hero-paragraph{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $md-paragraph;
+    line-height: 20px;
+    text-align: center;
+    margin-top:8px;
+    padding-left:10%;
+    padding-right:10%;
+    
+
+}
+
+.hero-btn{
+    @include primary-btn;
+    margin-top:38px;
+}
+
+
+//SERVICE SECTION
+
+.service-section{
+    height:100vh;
+    background-color:green;
+}
+
+
+//HOW IT WORKS
+
+.how-it-works-header{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+
+//DEPARTMENT
+
+.department-section{
+    height:100vh;
+    width:100%;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.department-card{
+    height:652px;
+    width:328px; 
+    background-color:#FAFAFA;
+    border-radius: 8px;
+}
+
+.department-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    margin-top:12px;
+}
+
+.upper-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;;
+}
+
+.department-header-border{
+    border:4px solid #DD821F;
+    width:114px;
+    margin-bottom:22px;
+}
+
+.dept-text{
+    text-align: center;
+    width:80%;
+} 
+
+.find-more{
+    margin-top:4px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DD821F;
+}
+
+
+//WEB VIEW
+
+@media only screen and (min-width: 768px) {
+
+    .hero-header-mobile{
+        display:none;
+    }
+    
+    .hero-image-web{
+        display:block;
+        height:618px;
+        width:480px;
+    }
+    
+    .hero-image-mobile{
+        display:none;
+    }
+    .hero-flex-container{
+        height:100vh;
+        width:100%; 
+        // background-color: red;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        // padding-top: 100px;
+       
+    }
+    
+    .hero-block{
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+        // background-color: purple;
+        width:65%;
+
+    }
+
+    .hero-header-web{
+        display: block;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 86px;
+    }
+    
+    .hero-paragraph{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        color: #DD821F;
+        align-self: flex-start;
+        padding:0;
+        text-align: left;
+        width:65%;
+    }
+    
+    .hero-btn{
+        @include primary-btn;
+        margin-top:24px;
+    }
+
+    //SERVICE SECTION 
+    .service-header{
+        font-size:64px;
+        padding-top:48px;
+    }
+
+    .service-item{
+        margin-right:24px;
+    }
+
+
+//HOW IT WORKS
+
+.how-it-works-section{
+    background-color: purple;
+
+}
+
+.card-flex-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+}
+
+//DEPARTMENT
+
+.department-section{
+    height:100vh;
+    width:100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.department-card{
+    height:404px;
+    width:1268px; 
+    background-color:#FAFAFA;
+    border-radius: 8px;
+    display: flex;
+    padding:24px 50px;
+    
+}
+
+.department-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    margin-top:12px;
+}
+
+.upper-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-left:24px;
+}
+
+.department-header-border{
+    border:4px solid #DD821F;
+    width:114px;
+    margin-bottom:22px;
+}
+
+.dept-text{
+    text-align:left;
+    width:80%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+} 
+
+.find-more{
+    margin-top:4px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DD821F;
+}
+
+.lower-section{
+    width:100%;
+    // background-color: green;
+    height:100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.grid-one{
+    width:100%;
+}
+
+.grid-two{
+    width:100%;
+}
+
+.grid-flex-container {
+    margin-right:0px;
+}
+
+    
+}
+
+
+
+
+
+
+  

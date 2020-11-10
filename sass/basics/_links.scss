@@ -1,0 +1,28 @@
+@mixin links {
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    
+    border-bottom{
+        border:1px solid #495678;
+    }
+    
+}
+
+
+@mixin links-not-visible {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FAFAFA;
+    text-decoration-line: none;
+    margin-top:12px;
+
+    &:hover{
+        color:#495678;
+    }
+}

@@ -1,0 +1,121 @@
+p{
+    color: green;
+}
+
+.nav{
+    height:64px;
+    width:100%;
+    background-color: green;
+}
+
+.main-container{
+    background-color:#F8F7F9;
+}
+
+
+.hero-header-web{
+    display:none;
+}
+
+.hero-image-web{
+    display:none;
+}
+
+.hero-flex-container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:40px;
+    /* background-color:orange; */
+    padding:0 16px;
+
+}
+
+.hero-block{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top:18px;
+}
+
+.hero-image-mobile{
+    margin-top:50px;
+}
+
+.hero-header-mobile{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.hero-paragraph{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #DD821F;
+    padding:0 5%;
+    margin-top:22px
+    
+
+}
+
+.hero-btn{
+    padding:8px 18px;
+    margin-top:38px;
+    background-color:#DD821F;
+    border:none;
+    border-radius: 4px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FAFAFA;
+}
+
+.card-container{
+    background-color: green;
+    padding:0 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.instruction-card{
+    background-color:#FDFEFE;
+    border-radius: 16px;
+    height:150px;
+    width:150px;
+    box-shadow: 4px 4px 24px 0px #000000 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #DD821F;
+}
+
+
+.payment-background{
+    height:1362px;
+    width:100%;
+    background-image: url("/resources/payment-background.svg");
+}

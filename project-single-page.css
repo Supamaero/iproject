@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: #F8F7F9;
+}
+
+.nav-container{
+    height:56px;
+    width:100%;
+    background-color: #d2d2d2;
+}
+
+
+/* CARD HEADER */
+
+.project-header-card-container{
+    background-color: #ffffff;
+    padding:44px 16px;
+    border-radius:12px;
+    margin-top:64px;
+    
+}
+
+.project-card-header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495678;
+}
+
+.lower-section{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:12px;
+}
+.metris{
+    /* background-color: red; */
+    display: flex;
+    /* border: 2px solid black; */
+    margin-right:24px;
+    margin-top:6px;
+}
+
+.project-icon{
+    height:16px; 
+    width: 16px;
+    margin-right:4px;
+} 
+
+.metris-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #495678;
+
+}
+
+.metris-link{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.metris-text-link{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16x;
+    text-decoration: none;
+    color:#DD821F;
+}
+
+.project-header-card-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-button{
+    /* width: 312px;
+    height: 42px; */
+    padding:12px 50px;
+    background-color: #495678;
+    color: #fafafa;
+    border:none;
+    border-radius: 4px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top:24px;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT CONTAINER */
+
+.main-content-container{
+    padding:0 16px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.ad{
+    height: 366px;
+    width: 100%;
+    border-radius:12px;
+    background-color: #d2d2d2;
+    margin-top: 24px;
+    background-image: url("/resources/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-text{
+    margin-top:24px;
+}
+
+.main-content-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-section{
+    padding:24px 16px;
+    /* background-color: tomato; */
+}
+
+.tag-header{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:20px;
+    margin-top:20px;
+    
+}
+.tag{
+    margin-top:18px;
+    margin-right:8px;
+    padding:6px 10px;
+    border:2px solid #495678;
+    background-color:transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* RELATED ARTICLES */
+
+.related-articles-header{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding:0 16px; 
+    margin-top:80px;   
+}
+
+.related-articles-card-container{
+    padding:0 16px;
+    margin-top:18px;
+}
+
+
+.related-articles-card-header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495678;
+}
+
+
+.read-more-button{
+    padding:10px 12px;
+    border:2px solid #495678;
+    background-color: transparent;
+    border-radius: 2px;
+    color:#495678;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top:12px;
+    cursor: pointer;
+}
+
+
+.related-underline{
+    border:0.8px solid#696969;
+    margin-top:24px;
+}
+
+/* 
+Department link */
+
+.department-link-container{
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.more-department-heading{
+    padding:0 16px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top:48px;
+    margin-bottom:10px;
+}
+
+.more-department-link{
+    text-decoration: none;
+    margin-top:8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495678;
+    
+}
+
+.more-project-department-link-button-container{
+    padding:0 16px;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .main-container{
+        display: flex;
+        flex-direction: column;align-items: center;
+    }
+
+    .main-section{
+        padding:0 48px;
+        display: flex;
+        width:90%;
+    }
+
+    .web-left{
+        flex: 3;
+        margin-right:84px;
+        
+    }
+
+    .web-right{
+        flex: 1.5;
+    }
+
+
+    /* HEADER SECTION */
+
+    .project-header-card-container{
+        background-color: transparent;
+        padding:44px 16px;
+        border-radius:12px;
+        margin-top:64px;
+        
+    }
+    
+    .project-card-header{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 70px;
+        color: #495678;
+    }
+    
+    .lower-section{
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top:12px;
+    }
+    .metris{
+        /* background-color: red; */
+        display: flex;
+        /* border: 2px solid black; */
+        margin-right:24px;
+        margin-top:6px;
+    }
+    
+    .project-icon{
+        height:16px; 
+        width: 16px;
+        margin-right:4px;
+    } 
+    
+    .metris-text{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #495678;
+    
+    }
+    
+    .metris-link{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .metris-text-link{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16x;
+        text-decoration: none;
+        color:#DD821F;
+    }
+    
+    .project-header-card-button-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .download-button{
+        padding:8px 18px;
+        background-color: #495678;
+        color: #fafafa;
+        border:none;
+        border-radius: 4px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        margin-top:24px;
+    }
+
+    /* MAIN CONTENT CONTAINER */
+
+.main-content-container{
+    padding:0 16px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ad{
+    height: 200px;
+    width: 100%;
+    border-radius:12px;
+    background-color: #d2d2d2;
+    margin-top: 24px;
+    background-image: url("/resources/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+}
